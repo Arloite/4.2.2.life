@@ -3,12 +3,19 @@
  */
 public class Gorilla extends Primate
 {
-  public void grunt()
+  public Gorilla()
+  {
+    System.out.println("A gorilla arrives.");
+  }
+
+  public static void grunt()
   {
     System.out.println("The gorilla grunts.");
   }
-  public Gorilla()
-{
-  System.out.println("A gorilla arrives.");
-}
+
+  //added in 4.9.5 step 22
+  public static void speak()
+  {
+    grunt();
+  }
 }

@@ -8,13 +8,20 @@ public class Monkey extends Primate
     System.out.println("The monkey climbs.");
   }
   
-  public void hoot()
+  public static void hoot()
   {
     System.out.println("The monkey hoots.");
   }
   
-  public void howl()
+  public static void howl()
   {
     System.out.println("The monkey howls.");
+  }
+
+  //added in 4.9.5 step 22
+  public static void speak()
+  {
+    hoot();
+    howl();
   }
 }

@@ -10,5 +10,4 @@ public class Bird extends Animal
   {
     System.out.println("A bird arrives.");
   }
-
 }
