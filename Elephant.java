@@ -26,4 +26,9 @@ public class Elephant extends Animal
   {
     trumpet();
   }
+  // 4.5.6 step 8 
+  public String toString()
+  {
+    return "This is an object of the Elephant class.";
+  }
 }
